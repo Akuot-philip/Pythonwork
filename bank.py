@@ -6,8 +6,7 @@ class Account:
         self.full_name =full_name
         self.number =number
         self.account_balance=0
-        self.deposits=[] #Add a new attribute to the class Account called deposits which by default is an empty list.
-        self.withdraws=[]  #Add another attribute to the class Account called withdrawals which by default is an empty list.
+        self.deposits=[] 
         self.transaction=100
         self.words={}
         self.loan_balance=0
